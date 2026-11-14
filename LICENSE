@@ -1,0 +1,22 @@
+BenchHand - licence overview
+Copyright (c) 2026 Martin Faltus (mafaltu)
+
+BenchHand is open source hardware and open source software. Each part of this
+repository is licensed as follows; the full licence texts are in the files named.
+
+  hardware/   (KiCad design files, fabrication data, BOM, hardware docs)
+              CERN Open Hardware Licence Version 2 - Strongly Reciprocal
+              (CERN-OHL-S-2.0)                      -> hardware/LICENSE
+
+  firmware/   (firmware source code, build files, firmware docs)
+              GNU General Public License v3.0 or later
+              (GPL-3.0-or-later)                    -> firmware/LICENSE
+              Bundled libraries in firmware/lib/ keep their own licences
+              (TinyUSB: MIT, ST HAL: BSD-3-Clause, CMSIS: Apache-2.0).
+
+  enclosure/, docs/, README.md, images
+              Creative Commons Attribution-ShareAlike 4.0 International
+              (CC-BY-SA-4.0)                        -> enclosure/LICENSE
+
+"BenchHand" is the name of this project. Derivatives are welcome under the
+licences above, but please do not sell them under the name BenchHand.
