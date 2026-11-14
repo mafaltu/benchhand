@@ -1,0 +1,115 @@
+(footprint "TestPoint_Pad_D1.0mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SMD pad as test Point, diameter 1.0mm")
+	(tags "test point SMD pad")
+	(property "Reference" "REF**"
+		(at 3.748722 1.500001 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ef7c0511-da2c-49b2-b283-f06c633d5388")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TestPoint_Pad_D1.0mm"
+		(at 0 1.55 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "589e446d-4267-46a5-a1db-5723a2333aac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d769a344-697e-4904-aa91-18551bf07fc9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a894bede-c656-48f8-a3a3-3dbba8ffc7f7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Block" "input_header"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0fe5bd59-66ab-4ce4-b4a8-26380b52ac89")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "MPN" "none (copper only)"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "72b3b19f-e749-4180-be71-4ce9d2af0981")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center 0 0)
+		(end 1 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a11f4aed-c9bc-459e-92f0-f6ad2094e5eb")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -1.45 180)
+		(layer "F.Fab")
+		(uuid "c3ebed37-217a-4f44-9bb8-023bffba80e4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask")
+		(uuid "dc97be15-a76d-4907-9c1e-424c6f9e402e")
+	)
+	(embedded_fonts no)
+)

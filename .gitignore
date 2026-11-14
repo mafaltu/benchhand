@@ -1,0 +1,11 @@
+# Build outputs
+firmware/build*/
+# KiCad per-user state and backups
+*.kicad_prl
+*-backups/
+fp-info-cache
+# Enclosure local outputs (large files are published as release assets)
+enclosure/out/stl/
+enclosure/out/step/
+__pycache__/
+.venv/

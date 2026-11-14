@@ -1,0 +1,282 @@
+(footprint "TerminalBlock_SameSky_TB002-500-03BE_1x03_P5.00mm_Horizontal"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Same Sky TB002-500-03BE 3-pole 5.00 mm screw terminal, wire entry toward +y (board edge); pin 1 = NC at -x. Datasheets/TB002-500-03BE.pdf p.2; pad 2.5 mm is a design choice")
+	(tags "terminal block 5.00 SameSky TB002")
+	(property "Reference" "REF**"
+		(at -5.1 -3.05 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9d96d59e-e7d8-4c76-b1e6-90e1ec567345")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TerminalBlock_SameSky_TB002-500-03BE_1x03_P5.00mm_Horizontal"
+		(at 0 5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "37886c86-3266-48b9-9116-80cb78588fee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c4c7e3bf-3d1b-446a-96c3-fcc72316cfa0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d20b517d-de1c-4ae1-abad-4e9421c54f03")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Block" "relay2"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "68e9561d-5507-4cf9-a0d2-3427c6a8365a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "TB002-500-03BE"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d790f939-1cb7-4494-bc80-48898254aa79")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Same Sky"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f490ae23-119c-4035-82ff-9fe7b61b49c8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -7.6 -4.2)
+		(end 7.6 -4.2)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "509a0264-5a43-405c-a252-c27967b54d23")
+	)
+	(fp_line
+		(start -7.6 3.6)
+		(end -7.6 -4.2)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1ef1ae53-eddf-4337-a7ca-c1729b240100")
+	)
+	(fp_line
+		(start 7.6 -4.2)
+		(end 7.6 3.6)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c50f6205-ae35-4dd6-9288-3c74f2245895")
+	)
+	(fp_line
+		(start 7.6 3.6)
+		(end -7.6 3.6)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c20ee5ce-ea46-41e4-82b2-16d21dc193c5")
+	)
+	(fp_poly
+		(pts
+			(xy -8.042426 3) (xy -8.57 3.527574) (xy -8.57 2.472426)
+		)
+		(stroke
+			(width 0.16)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "31e6488c-138c-4d08-ad3c-8ab9edf4362e")
+	)
+	(fp_line
+		(start -8.1 -4.5)
+		(end 7.9 -4.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "db9a692d-245f-4f01-b9f2-29880c1334e4")
+	)
+	(fp_line
+		(start -8.1 3.9)
+		(end -8.1 -4.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "7ad0ed95-ae3a-49eb-843b-0b5ebda1e9df")
+	)
+	(fp_line
+		(start 7.9 -4.5)
+		(end 7.9 3.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "12e2c433-84d2-410d-a0ff-eaccab43f1e0")
+	)
+	(fp_line
+		(start 7.9 3.9)
+		(end -8.1 3.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "347a4e1a-f53d-4e14-a2a5-ad16715dd971")
+	)
+	(fp_line
+		(start -7.5 -4.099999)
+		(end 7.5 -4.099999)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "f0b24a84-ae5b-4edb-974a-96b953b35405")
+	)
+	(fp_line
+		(start -7.5 2.5)
+		(end 7.5 2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "a2bc24b1-8035-48b6-a651-e71bf0a61e57")
+	)
+	(fp_line
+		(start -7.5 3.5)
+		(end -7.5 -4.099999)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "3c0fe80f-fe67-4885-a44d-f103284223b5")
+	)
+	(fp_line
+		(start 7.5 -4.099999)
+		(end 7.5 3.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "08123ca1-6e26-4e2d-b642-957857b88948")
+	)
+	(fp_line
+		(start 7.5 3.5)
+		(end -7.5 3.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "2b489a6d-d9ae-4a8f-bb35-54ebb0376c26")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "aac11fb9-c300-49bb-a972-f966ffaeaeaf")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -5 0)
+		(size 2.5 2.5)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "442bc865-9d58-4e78-9e3c-5a6ad37700f0")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 2.5 2.5)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e79e8928-b560-4b67-b412-af568463ea87")
+	)
+	(pad "3" thru_hole circle
+		(at 5 0)
+		(size 2.5 2.5)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f3ef14eb-3076-4126-9e98-b826ef66d7b6")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../lib/3d/Same_Sky_TB002-500-03BE.step"
+		(offset
+			(xyz -7.5 4.25 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
+)

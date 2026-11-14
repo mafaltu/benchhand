@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+out/build_*.log
+out/step/
+out/stl/
+out/previews/
+out/checks.json

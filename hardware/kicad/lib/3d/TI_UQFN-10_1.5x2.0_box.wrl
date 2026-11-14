@@ -1,0 +1,8 @@
+#VRML V2.0 utf8
+# TI RSE0010A UQFN-10 simplified model: body 1.5 x 2.0 x 0.6 mm (stock KiCad model file is missing). Units: 0.1 inch (KiCad VRML convention), authored in mm/2.54. Model y up = editor -y; pin-1 mark at (-0.5,0.75)
+Shape { appearance Appearance { material Material { diffuseColor 0.12 0.12 0.12 specularColor 0.3 0.3 0.3 shininess 0.4 } }
+ geometry IndexedFaceSet { solid TRUE coord Coordinate { point [ -0.29528 -0.39370 0.00000, 0.29528 -0.39370 0.00000, 0.29528 0.39370 0.00000, -0.29528 0.39370 0.00000, -0.29528 -0.39370 0.23622, 0.29528 -0.39370 0.23622, 0.29528 0.39370 0.23622, -0.29528 0.39370 0.23622, ] }
+ coordIndex [ 0 3 2 1 -1, 4 5 6 7 -1, 0 1 5 4 -1, 1 2 6 5 -1, 2 3 7 6 -1, 3 0 4 7 -1 ] } }
+Shape { appearance Appearance { material Material { diffuseColor 0.85 0.85 0.85 specularColor 0.3 0.3 0.3 shininess 0.4 } }
+ geometry IndexedFaceSet { solid TRUE coord Coordinate { point [ -0.24606 0.24606 0.23622, -0.14764 0.24606 0.23622, -0.14764 0.34449 0.23622, -0.24606 0.34449 0.23622, -0.24606 0.24606 0.24409, -0.14764 0.24606 0.24409, -0.14764 0.34449 0.24409, -0.24606 0.34449 0.24409, ] }
+ coordIndex [ 0 3 2 1 -1, 4 5 6 7 -1, 0 1 5 4 -1, 1 2 6 5 -1, 2 3 7 6 -1, 3 0 4 7 -1 ] } }

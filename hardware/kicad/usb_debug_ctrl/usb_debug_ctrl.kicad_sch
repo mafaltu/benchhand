@@ -1,0 +1,224 @@
+(kicad_sch
+	(version 20250114)
+	(generator "pcb-ai-kit_gen_sch")
+	(generator_version "10.0")
+	(uuid 0add0b91-61de-5ebf-8332-eb1e3f9bae23)
+	(paper "A4")
+	(title_block
+		(title "USB-DEBUG-CTRL")
+		(date "2026-10-21")
+		(rev "r1")
+	)
+	(lib_symbols)
+	(sheet
+		(at 25.4 50.8)
+		(size 63.5 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid b09432a7-41d5-5e18-95c2-a31124ddb216)
+		(property "Sheetname" "Control_USB_Power"
+			(at 25.4 50.099999999999994 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Control_USB_Power.kicad_sch"
+			(at 25.4 76.79999999999998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "usb_debug_ctrl"
+				(path "/0add0b91-61de-5ebf-8332-eb1e3f9bae23"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.30000000000001 50.8)
+		(size 63.5 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid bb6a4f0a-768d-52ad-82e5-5e7309df0ed9)
+		(property "Sheetname" "MCU_Buttons"
+			(at 114.30000000000001 50.099999999999994 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU_Buttons.kicad_sch"
+			(at 114.30000000000001 76.79999999999998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "usb_debug_ctrl"
+				(path "/0add0b91-61de-5ebf-8332-eb1e3f9bae23"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 203.20000000000002 50.8)
+		(size 63.5 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid 41898157-707f-58f1-942d-e98da82ef0b4)
+		(property "Sheetname" "Relay_Channels"
+			(at 203.20000000000002 50.099999999999994 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Relay_Channels.kicad_sch"
+			(at 203.20000000000002 76.79999999999998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "usb_debug_ctrl"
+				(path "/0add0b91-61de-5ebf-8332-eb1e3f9bae23"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 114.3)
+		(size 63.5 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid 2204f73e-865f-537d-b558-3a33bf71e0eb)
+		(property "Sheetname" "Isolated_Inputs"
+			(at 25.4 113.6 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Isolated_Inputs.kicad_sch"
+			(at 25.4 140.29999999999998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "usb_debug_ctrl"
+				(path "/0add0b91-61de-5ebf-8332-eb1e3f9bae23"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.30000000000001 114.3)
+		(size 63.5 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid 34f8965e-e606-5118-bf9a-6a221d5d1287)
+		(property "Sheetname" "USB_Passthrough"
+			(at 114.30000000000001 113.6 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB_Passthrough.kicad_sch"
+			(at 114.30000000000001 140.29999999999998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "usb_debug_ctrl"
+				(path "/0add0b91-61de-5ebf-8332-eb1e3f9bae23"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,7230 @@
+(kicad_sch
+	(version 20250114)
+	(generator "pcb-ai-kit_gen_sch")
+	(generator_version "10.0")
+	(uuid 2204f73e-865f-537d-b558-3a33bf71e0eb)
+	(paper "A3")
+	(title_block
+		(title "USB-DEBUG-CTRL")
+		(date "2026-10-21")
+		(rev "r1")
+		(comment 1 "USB-DEBUG-CTRL r1 - generated from design/sch_spec.json")
+	)
+	(lib_symbols
+		(symbol "usb_debug_ctrl:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762)
+						(xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762)
+						(xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "usb_debug_ctrl:D"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27)
+						(xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27)
+						(xy 1.27 -1.27)
+						(xy -1.27 0)
+						(xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0)
+						(xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "usb_debug_ctrl:ISOM8600"
+			(pin_names
+				(offset 0.508)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -5.08 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "ISOM8600"
+				(at 5.08 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "TI ISOM8600 SO-4: 1 AN, 2 CAT, 3 S2, 4 S1 (C_inputs.md, datasheet p.3 Table 4-1)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ISOM8600_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "ISOM8600_1_1"
+				(pin passive line
+					(at -7.62 1.27 0)
+					(length 2.54)
+					(name "AN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 1.27 180)
+					(length 2.54)
+					(name "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -1.27 180)
+					(length 2.54)
+					(name "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "CAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "usb_debug_ctrl:CONTROL_3V3"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "CONTROL_3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"CONTROL_3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CONTROL_3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27)
+						(xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0)
+						(xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54)
+						(xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CONTROL_3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "usb_debug_ctrl:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0)
+						(xy 0 -1.27)
+						(xy 1.27 -1.27)
+						(xy 0 -2.54)
+						(xy -1.27 -1.27)
+						(xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "usb_debug_ctrl:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "usb_debug_ctrl:TSW-104-08-F-D-RA"
+			(pin_names
+				(offset 0.508)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -5.08 24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TSW-104-08-F-D-RA"
+				(at 5.08 24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Samtec TSW-104-08-F-D-RA 2x4 right angle (D-48: even = IN+, odd = IN-)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TSW-104-08-F-D-RA_0_1"
+				(rectangle
+					(start -5.08 22.86)
+					(end 5.08 -22.86)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TSW-104-08-F-D-RA_1_1"
+				(pin passive line
+					(at 7.62 17.78 180)
+					(length 2.54)
+					(name "IN1+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 12.7 180)
+					(length 2.54)
+					(name "IN1-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 7.62 180)
+					(length 2.54)
+					(name "IN2+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "IN2-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "IN3+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -7.62 180)
+					(length 2.54)
+					(name "IN3-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -12.7 180)
+					(length 2.54)
+					(name "IN4+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -17.78 180)
+					(length 2.54)
+					(name "IN4-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "usb_debug_ctrl:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "usb_debug_ctrl:C")
+		(at 180.34 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid a45f738a-42f3-5256-be2b-bf466de128dd)
+		(property "Reference" "C311"
+			(at 185.547 52.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10n"
+			(at 185.547 54.356 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 180.34 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Block" "input1"
+			(at 180.34 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB103"
+			(at 180.34 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 180.34 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid 23bfa7ea-facb-5b10-a9a4-435879b4345b)
+		)
+		(pin "2"
+			(uuid e1c32793-8e71-51ce-a126-75296c196bdb)
+		)
+		(instances
+			(project "usb_debug_ctrl"
+				(path "/0add0b91-61de-5ebf-8332-eb1e3f9bae23/2204f73e-865f-537d-b558-3a33bf71e0eb"
+					(reference "C311")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "usb_debug_ctrl:C")
+		(at 180.34 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid c300bf26-d226-5f73-81e2-80240b47126f)
+		(property "Reference" "C321"
+			(at 185.547 98.044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10n"
+			(at 185.547 100.076 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 180.34 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Block" "input2"
+			(at 180.34 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB103"
+			(at 180.34 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 180.34 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid c18bb83a-0732-56d9-a435-816974bed091)
+		)
+		(pin "2"
+			(uuid 6081ac9b-1344-5161-b53a-cbd99cdacf4d)
+		)
+		(instances
+			(project "usb_debug_ctrl"
+				(path "/0add0b91-61de-5ebf-8332-eb1e3f9bae23/2204f73e-865f-537d-b558-3a33bf71e0eb"
+					(reference "C321")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "usb_debug_ctrl:C")
+		(at 180.34 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid fadbf84b-26e5-5025-aaa9-6acd22139482)
+		(property "Reference" "C331"
+			(at 185.547 143.764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10n"
+			(at 185.547 145.796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 180.34 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Block" "input3"
+			(at 180.34 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB103"
+			(at 180.34 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 180.34 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid 2417989c-782e-54d7-b7f0-e9e9522213b5)
+		)
+		(pin "2"
+			(uuid c7be9484-3c7c-50e9-a33d-80d956f3d348)
+		)
+		(instances
+			(project "usb_debug_ctrl"
+				(path "/0add0b91-61de-5ebf-8332-eb1e3f9bae23/2204f73e-865f-537d-b558-3a33bf71e0eb"
+					(reference "C331")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "usb_debug_ctrl:C")
+		(at 180.34 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 65811b7d-3a3a-5b93-845c-aa555329fb1d)
+		(property "Reference" "C341"
+			(at 185.547 189.484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10n"
+			(at 185.547 191.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 180.34 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Block" "input4"
+			(at 180.34 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB103"
+			(at 180.34 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 180.34 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid 7aed21f2-d060-5081-9128-4ae20b668c9d)
+		)
+		(pin "2"
+			(uuid 1e4ce5c2-c80e-576c-8040-bfb1defc6111)
+		)
+		(instances
+			(project "usb_debug_ctrl"
+				(path "/0add0b91-61de-5ebf-8332-eb1e3f9bae23/2204f73e-865f-537d-b558-3a33bf71e0eb"
+					(reference "C341")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "usb_debug_ctrl:D")
+		(at 116.84 50.8 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 4f6063d3-5617-513f-90b7-95d851ecf79a)
+		(property "Reference" "D311"
+			(at 123.19 49.784 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 123.19 51.816 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 116.84 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Block" "input1"
+			(at 116.84 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 116.84 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Diotec Semiconductor"
+			(at 116.84 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid 87da033c-2614-536c-b2ae-751435629061)
+		)
+		(pin "2"
+			(uuid 456ba8a3-d630-5bc4-8393-3972da2542e7)
+		)
+		(instances
+			(project "usb_debug_ctrl"
+				(path "/0add0b91-61de-5ebf-8332-eb1e3f9bae23/2204f73e-865f-537d-b558-3a33bf71e0eb"
+					(reference "D311")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "usb_debug_ctrl:D")
+		(at 116.84 96.52 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 29ee35a3-b774-5e93-8b6d-91a82243740e)
+		(property "Reference" "D321"
+			(at 123.19 95.504 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 123.19 97.536 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 116.84 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Block" "input2"
+			(at 116.84 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 116.84 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Diotec Semiconductor"
+			(at 116.84 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid b95206f9-2a31-5ea3-9aa9-ed5f58b900fa)
+		)
+		(pin "2"
+			(uuid c701647d-5875-5627-8c03-1081ac7fe959)
+		)
+		(instances
+			(project "usb_debug_ctrl"
+				(path "/0add0b91-61de-5ebf-8332-eb1e3f9bae23/2204f73e-865f-537d-b558-3a33bf71e0eb"
+					(reference "D321")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "usb_debug_ctrl:D")
+		(at 116.84 142.24 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 3ee5de15-e405-5516-bd79-13b633206d82)
+		(property "Reference" "D331"
+			(at 123.19 141.224 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 123.19 143.256 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 116.84 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Block" "input3"
+			(at 116.84 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 116.84 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Diotec Semiconductor"
+			(at 116.84 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid 48a50799-d665-5af3-8d86-9c2cf5d88d5c)
+		)
+		(pin "2"
+			(uuid 9167b41a-7b55-5652-82a0-25cddc4832a2)
+		)
+		(instances
+			(project "usb_debug_ctrl"
+				(path "/0add0b91-61de-5ebf-8332-eb1e3f9bae23/2204f73e-865f-537d-b558-3a33bf71e0eb"
+					(reference "D331")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "usb_debug_ctrl:D")
+		(at 116.84 187.96 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid b917c893-bec4-53ad-a584-23cc523da328)
+		(property "Reference" "D341"
+			(at 123.19 186.944 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 123.19 188.976 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 116.84 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Block" "input4"
+			(at 116.84 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 116.84 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Diotec Semiconductor"
+			(at 116.84 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid f610ebcd-3180-5ac6-987c-db4c36057cbb)
+		)
+		(pin "2"
+			(uuid 347e790e-0851-5251-aa2d-cb3751838f73)
+		)
+		(instances
+			(project "usb_debug_ctrl"
+				(path "/0add0b91-61de-5ebf-8332-eb1e3f9bae23/2204f73e-865f-537d-b558-3a33bf71e0eb"
+					(reference "D341")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "usb_debug_ctrl:TSW-104-08-F-D-RA")
+		(at 33.02 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 148bc242-5be8-511d-9647-116cf68a48a1)
+		(property "Reference" "J301"
+			(at 28.702 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TSW-104-08-F-D-RA"
+			(at 45.593 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "usb_relay:PinHeader_2x04_P2.54mm_Horizontal_usb_relay"
+			(at 33.02 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Block" "input_header"
+			(at 33.02 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TSW-104-08-F-D-RA"
+			(at 33.02 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samtec"
+			(at 33.02 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid 402d467d-90cd-5ca4-9386-897440b90e97)
+		)
+		(pin "2"
+			(uuid 81627dd9-90c7-56de-9c39-987a1db3fea5)
+		)
+		(pin "3"
+			(uuid e6f2f77b-3350-5ce9-970c-de35b7935109)
+		)
+		(pin "4"
+			(uuid 0696ead2-a562-53b9-8e7f-52451bce1d0f)
+		)
+		(pin "5"
+			(uuid 34fdd549-4a6a-576b-86f1-13202df77722)
+		)
+		(pin "6"
+			(uuid 95414a47-0587-5281-a1be-f8f858392227)
+		)
+		(pin "7"
+			(uuid f3f12f45-7099-5335-b535-06f82ae737e7)
+		)
+		(pin "8"
+			(uuid ca69cf49-d319-5acb-9bb7-3401f8026ed6)
+		)
+		(instances
+			(project "usb_debug_ctrl"
+				(path "/0add0b91-61de-5ebf-8332-eb1e3f9bae23/2204f73e-865f-537d-b558-3a33bf71e0eb"
+					(reference "J301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "usb_debug_ctrl:R")
+		(at 73.66 45.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 52afc8d3-8a8c-58ae-8010-d446aa7dcfed)
+		(property "Reference" "R311"
+			(at 73.66 41.402 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "274"
+			(at 73.66 43.434 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 73.66 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Block" "input1"
+			(at 73.66 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC1206FR-07274RL"
+			(at 73.66 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 73.66 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid 37c32b61-f7c5-5115-9241-59627a210b8e)
+		)
+		(pin "2"
+			(uuid 233fb0fb-dce0-547a-8c31-41aad5917310)
+		)
+		(instances
+			(project "usb_debug_ctrl"
+				(path "/0add0b91-61de-5ebf-8332-eb1e3f9bae23/2204f73e-865f-537d-b558-3a33bf71e0eb"
+					(reference "R311")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "usb_debug_ctrl:R")
+		(at 91.44 45.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid f4484294-7f44-5b7c-9044-5a50e8490ce0)
+		(property "Reference" "R312"
+			(at 91.44 48.006 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "274"
+			(at 91.44 50.038 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 91.44 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Block" "input1"
+			(at 91.44 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC1206FR-07274RL"
+			(at 91.44 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 91.44 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid 3c715cdb-d1f9-51b6-9036-f7c2d005e19c)
+		)
+		(pin "2"
+			(uuid ad327dea-78e0-5d9d-a69a-734c751946e2)
+		)
+		(instances
+			(project "usb_debug_ctrl"
+				(path "/0add0b91-61de-5ebf-8332-eb1e3f9bae23/2204f73e-865f-537d-b558-3a33bf71e0eb"
+					(reference "R312")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "usb_debug_ctrl:R")
+		(at 104.14 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 5c85aa12-8817-5ade-b812-f4c5c157e404)
+		(property "Reference" "R313"
+			(at 108.966 49.784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.15k"
+			(at 108.966 51.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 104.14 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Block" "input1"
+			(at 104.14 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-071K15L"
+			(at 104.14 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 104.14 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid 1470edaa-9226-5ae2-9384-7ea290303819)
+		)
+		(pin "2"
+			(uuid 417aa7e8-8a25-5d36-9f7f-c37fcd9bc30e)
+		)
+		(instances
+			(project "usb_debug_ctrl"
+				(path "/0add0b91-61de-5ebf-8332-eb1e3f9bae23/2204f73e-865f-537d-b558-3a33bf71e0eb"
+					(reference "R313")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "usb_debug_ctrl:R")
+		(at 157.48 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 6603ad3b-d7ed-5cbf-9975-b30029b44967)
+		(property "Reference" "R314"
+			(at 161.671 37.084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22k"
+			(at 161.671 39.116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 157.48 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Block" "input1"
+			(at 157.48 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0722KL"
+			(at 157.48 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 157.48 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid 7bcb6146-5ce2-5778-94d0-fec9d14da584)
+		)
+		(pin "2"
+			(uuid 008b79b4-94ac-58c7-9de3-64bea26e34e3)
+		)
+		(instances
+			(project "usb_debug_ctrl"
+				(path "/0add0b91-61de-5ebf-8332-eb1e3f9bae23/2204f73e-865f-537d-b558-3a33bf71e0eb"
+					(reference "R314")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "usb_debug_ctrl:R")
+		(at 167.64 45.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid ae16f8d6-750d-5461-9b3d-b85baad79914)
+		(property "Reference" "R315"
+			(at 167.64 48.006 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 167.64 50.038 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 167.64 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Block" "input1"
+			(at 167.64 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-071KL"
+			(at 167.64 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 167.64 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid 5c9987d8-3b90-54a3-95dd-4ab6ee194f03)
+		)
+		(pin "2"
+			(uuid b01483de-5dde-5bfc-a564-e43ceee2d4b9)
+		)
+		(instances
+			(project "usb_debug_ctrl"
+				(path "/0add0b91-61de-5ebf-8332-eb1e3f9bae23/2204f73e-865f-537d-b558-3a33bf71e0eb"
+					(reference "R315")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "usb_debug_ctrl:R")
+		(at 73.66 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 2a3b12d7-9efd-51a8-8285-ee4acfc57213)
+		(property "Reference" "R321"
+			(at 73.66 87.122 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "274"
+			(at 73.66 89.154 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 73.66 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Block" "input2"
+			(at 73.66 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC1206FR-07274RL"
+			(at 73.66 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 73.66 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid c1369f37-7da4-598c-8578-ee1fb90c865b)
+		)
+		(pin "2"
+			(uuid bcf631af-9556-5aab-89c8-c51f1013fbbd)
+		)
+		(instances
+			(project "usb_debug_ctrl"
+				(path "/0add0b91-61de-5ebf-8332-eb1e3f9bae23/2204f73e-865f-537d-b558-3a33bf71e0eb"
+					(reference "R321")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "usb_debug_ctrl:R")
+		(at 91.44 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 60b40539-992e-5713-b166-c10bcac8975c)
+		(property "Reference" "R322"
+			(at 91.44 93.726 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "274"
+			(at 91.44 95.758 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 91.44 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Block" "input2"
+			(at 91.44 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC1206FR-07274RL"
+			(at 91.44 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 91.44 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid ba5bd220-5748-5348-b0a7-c555249bd880)
+		)
+		(pin "2"
+			(uuid 0306d4e1-f8c5-55ab-a209-b90d7ca5f502)
+		)
+		(instances
+			(project "usb_debug_ctrl"
+				(path "/0add0b91-61de-5ebf-8332-eb1e3f9bae23/2204f73e-865f-537d-b558-3a33bf71e0eb"
+					(reference "R322")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "usb_debug_ctrl:R")
+		(at 104.14 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 4a547f43-a7ec-5a72-a983-2ce78e3c4233)
+		(property "Reference" "R323"
+			(at 108.966 95.504 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.15k"
+			(at 108.966 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 104.14 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Block" "input2"
+			(at 104.14 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-071K15L"
+			(at 104.14 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 104.14 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid 68c91416-15ef-5fe9-be6d-1ad4c683700d)
+		)
+		(pin "2"
+			(uuid 733d943a-5de7-5e82-a137-fbb41caaa008)
+		)
+		(instances
+			(project "usb_debug_ctrl"
+				(path "/0add0b91-61de-5ebf-8332-eb1e3f9bae23/2204f73e-865f-537d-b558-3a33bf71e0eb"
+					(reference "R323")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "usb_debug_ctrl:R")
+		(at 157.48 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 67f1d05b-ae0d-5d97-b4c6-f058a918536c)
+		(property "Reference" "R324"
+			(at 161.671 82.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22k"
+			(at 161.671 84.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 157.48 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Block" "input2"
+			(at 157.48 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0722KL"
+			(at 157.48 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 157.48 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid 36577c12-1fc2-55ca-9304-2abcfcc3c66e)
+		)
+		(pin "2"
+			(uuid ef263334-941e-5904-96b0-0302afe5f004)
+		)
+		(instances
+			(project "usb_debug_ctrl"
+				(path "/0add0b91-61de-5ebf-8332-eb1e3f9bae23/2204f73e-865f-537d-b558-3a33bf71e0eb"
+					(reference "R324")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "usb_debug_ctrl:R")
+		(at 167.64 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 96e7b54e-f4df-5123-b768-e2f2d662ae8d)
+		(property "Reference" "R325"
+			(at 167.64 93.726 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 167.64 95.758 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 167.64 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Block" "input2"
+			(at 167.64 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-071KL"
+			(at 167.64 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 167.64 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid 9b866dcb-93df-5c53-9dc0-29cee3ea40cd)
+		)
+		(pin "2"
+			(uuid 6984695d-2389-573c-b51f-006aad85b730)
+		)
+		(instances
+			(project "usb_debug_ctrl"
+				(path "/0add0b91-61de-5ebf-8332-eb1e3f9bae23/2204f73e-865f-537d-b558-3a33bf71e0eb"
+					(reference "R325")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "usb_debug_ctrl:R")
+		(at 73.66 137.16 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 64d583dd-a78e-5f5a-8c39-4d9964b11ca2)
+		(property "Reference" "R331"
+			(at 73.66 132.842 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "274"
+			(at 73.66 134.874 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 73.66 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Block" "input3"
+			(at 73.66 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC1206FR-07274RL"
+			(at 73.66 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 73.66 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid 96c5dde2-d4e7-58fa-8062-fd4b67860ff5)
+		)
+		(pin "2"
+			(uuid caa063a8-0374-5909-993b-c984d10d128e)
+		)
+		(instances
+			(project "usb_debug_ctrl"
+				(path "/0add0b91-61de-5ebf-8332-eb1e3f9bae23/2204f73e-865f-537d-b558-3a33bf71e0eb"
+					(reference "R331")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "usb_debug_ctrl:R")
+		(at 91.44 137.16 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 3b585a75-bf98-562d-8dde-a7f2f7a7d3a1)
+		(property "Reference" "R332"
+			(at 91.44 139.446 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "274"
+			(at 91.44 141.478 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 91.44 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Block" "input3"
+			(at 91.44 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC1206FR-07274RL"
+			(at 91.44 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 91.44 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid 3136cd46-f9cb-57ad-89f0-be2af9a2278a)
+		)
+		(pin "2"
+			(uuid 55df7c70-4c9e-5d26-8af9-61064b2b23f0)
+		)
+		(instances
+			(project "usb_debug_ctrl"
+				(path "/0add0b91-61de-5ebf-8332-eb1e3f9bae23/2204f73e-865f-537d-b558-3a33bf71e0eb"
+					(reference "R332")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "usb_debug_ctrl:R")
+		(at 104.14 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 752a12f3-5d7c-5b8f-9e41-4c8b89c43fca)
+		(property "Reference" "R333"
+			(at 108.966 141.224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.15k"
+			(at 108.966 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 104.14 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Block" "input3"
+			(at 104.14 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-071K15L"
+			(at 104.14 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 104.14 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid bde51c91-542a-52ec-b3fb-24dcc7ddf610)
+		)
+		(pin "2"
+			(uuid dfae46ca-aa8d-5990-83c5-c4e9617cb360)
+		)
+		(instances
+			(project "usb_debug_ctrl"
+				(path "/0add0b91-61de-5ebf-8332-eb1e3f9bae23/2204f73e-865f-537d-b558-3a33bf71e0eb"
+					(reference "R333")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "usb_debug_ctrl:R")
+		(at 157.48 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 276f5f0f-0a43-592e-ae08-c3c404d16dd2)
+		(property "Reference" "R334"
+			(at 161.671 128.524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22k"
+			(at 161.671 130.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 157.48 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Block" "input3"
+			(at 157.48 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0722KL"
+			(at 157.48 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 157.48 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid 8dd1f8f8-4697-5fd6-a343-b795bf85eb8b)
+		)
+		(pin "2"
+			(uuid 8c1edbdc-f6d5-5ad3-8c80-3088ea2bbc8c)
+		)
+		(instances
+			(project "usb_debug_ctrl"
+				(path "/0add0b91-61de-5ebf-8332-eb1e3f9bae23/2204f73e-865f-537d-b558-3a33bf71e0eb"
+					(reference "R334")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "usb_debug_ctrl:R")
+		(at 167.64 137.16 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 78982527-2994-515f-834d-79547dc8625c)
+		(property "Reference" "R335"
+			(at 167.64 139.446 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 167.64 141.478 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 167.64 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Block" "input3"
+			(at 167.64 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-071KL"
+			(at 167.64 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 167.64 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid d4b8583b-811e-57ba-bac5-16130c76deff)
+		)
+		(pin "2"
+			(uuid 43f92d3c-3268-5373-97bb-ffb493ed501c)
+		)
+		(instances
+			(project "usb_debug_ctrl"
+				(path "/0add0b91-61de-5ebf-8332-eb1e3f9bae23/2204f73e-865f-537d-b558-3a33bf71e0eb"
+					(reference "R335")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "usb_debug_ctrl:R")
+		(at 73.66 182.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 266e3597-7c2c-5017-8715-26fdd4a4b56b)
+		(property "Reference" "R341"
+			(at 73.66 178.562 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "274"
+			(at 73.66 180.594 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 73.66 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Block" "input4"
+			(at 73.66 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC1206FR-07274RL"
+			(at 73.66 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 73.66 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid 66703dec-d5d2-51b4-88a1-9f0882699dd4)
+		)
+		(pin "2"
+			(uuid 93a2364b-9e7d-5356-a344-eb0cdd1018e2)
+		)
+		(instances
+			(project "usb_debug_ctrl"
+				(path "/0add0b91-61de-5ebf-8332-eb1e3f9bae23/2204f73e-865f-537d-b558-3a33bf71e0eb"
+					(reference "R341")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "usb_debug_ctrl:R")
+		(at 91.44 182.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 0de68768-a70d-5305-b098-f7fcb22c1ad9)
+		(property "Reference" "R342"
+			(at 91.44 185.166 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "274"
+			(at 91.44 187.198 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 91.44 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Block" "input4"
+			(at 91.44 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC1206FR-07274RL"
+			(at 91.44 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 91.44 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid a6eca836-e34d-5a42-a9f2-015183c852b2)
+		)
+		(pin "2"
+			(uuid ebbcc97b-0efe-5841-ad43-c599d3fd764b)
+		)
+		(instances
+			(project "usb_debug_ctrl"
+				(path "/0add0b91-61de-5ebf-8332-eb1e3f9bae23/2204f73e-865f-537d-b558-3a33bf71e0eb"
+					(reference "R342")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "usb_debug_ctrl:R")
+		(at 104.14 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid cfb3200e-3cb8-5472-95f7-5cd97462d1d5)
+		(property "Reference" "R343"
+			(at 108.966 186.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.15k"
+			(at 108.966 188.976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 104.14 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Block" "input4"
+			(at 104.14 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-071K15L"
+			(at 104.14 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 104.14 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid 82755d51-1f9f-5db4-a5cf-81aa0a1bcb6a)
+		)
+		(pin "2"
+			(uuid 75daef89-4a02-57cc-bc7c-aa1e2c459883)
+		)
+		(instances
+			(project "usb_debug_ctrl"
+				(path "/0add0b91-61de-5ebf-8332-eb1e3f9bae23/2204f73e-865f-537d-b558-3a33bf71e0eb"
+					(reference "R343")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "usb_debug_ctrl:R")
+		(at 157.48 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 16f393c1-db66-5881-8622-9ae3999d1935)
+		(property "Reference" "R344"
+			(at 161.671 174.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22k"
+			(at 161.671 176.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 157.48 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Block" "input4"
+			(at 157.48 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0722KL"
+			(at 157.48 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 157.48 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid a82baa18-724e-5649-8f6d-babee11ba353)
+		)
+		(pin "2"
+			(uuid 3459b347-5ab5-5330-aa40-2f1ebcf25d46)
+		)
+		(instances
+			(project "usb_debug_ctrl"
+				(path "/0add0b91-61de-5ebf-8332-eb1e3f9bae23/2204f73e-865f-537d-b558-3a33bf71e0eb"
+					(reference "R344")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "usb_debug_ctrl:R")
+		(at 167.64 182.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 653ae5ff-1d7d-53cd-9ef7-6814db610115)
+		(property "Reference" "R345"
+			(at 167.64 185.166 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 167.64 187.198 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 167.64 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Block" "input4"
+			(at 167.64 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-071KL"
+			(at 167.64 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 167.64 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid 7ebe8c67-d890-5c15-ad67-3beba0a736ed)
+		)
+		(pin "2"
+			(uuid 8d0a391f-cfa2-5672-baae-c30feaf74723)
+		)
+		(instances
+			(project "usb_debug_ctrl"
+				(path "/0add0b91-61de-5ebf-8332-eb1e3f9bae23/2204f73e-865f-537d-b558-3a33bf71e0eb"
+					(reference "R345")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "usb_debug_ctrl:TestPoint")
+		(at 53.34 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid fc24e05f-cc19-5333-8137-7c397fab9648)
+		(property "Reference" "TP301"
+			(at 57.912 95.758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "test pad 1.0 mm"
+			(at 53.34 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 53.34 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Block" "input_header"
+			(at 53.34 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "none (copper only)"
+			(at 53.34 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid ca8e0b00-cdeb-5001-8440-6426d8123086)
+		)
+		(instances
+			(project "usb_debug_ctrl"
+				(path "/0add0b91-61de-5ebf-8332-eb1e3f9bae23/2204f73e-865f-537d-b558-3a33bf71e0eb"
+					(reference "TP301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "usb_debug_ctrl:ISOM8600")
+		(at 139.7 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 67a8e984-8486-5c3c-86c7-d4675745422c)
+		(property "Reference" "U311"
+			(at 135.382 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ISOM8600DFGR"
+			(at 149.098 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "usb_relay:SO-4_4.4x3.6mm_P2.54mm_usb_relay"
+			(at 139.7 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Block" "input1"
+			(at 139.7 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ISOM8600DFGR"
+			(at 139.7 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 139.7 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid 2da5ece9-a1a7-5335-ab81-f6f658b35d30)
+		)
+		(pin "2"
+			(uuid 9de004de-5af8-561c-bd5a-d0f1386b4aa7)
+		)
+		(pin "3"
+			(uuid 1383e9bc-b7f7-5eed-9671-8f1f85b0e2ce)
+		)
+		(pin "4"
+			(uuid 341e5c39-619e-5ddf-aa95-23853c90c7d8)
+		)
+		(instances
+			(project "usb_debug_ctrl"
+				(path "/0add0b91-61de-5ebf-8332-eb1e3f9bae23/2204f73e-865f-537d-b558-3a33bf71e0eb"
+					(reference "U311")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "usb_debug_ctrl:ISOM8600")
+		(at 139.7 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 44a42ee5-700c-50bb-abee-ba127a63d8b2)
+		(property "Reference" "U321"
+			(at 135.382 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ISOM8600DFGR"
+			(at 149.098 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "usb_relay:SO-4_4.4x3.6mm_P2.54mm_usb_relay"
+			(at 139.7 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Block" "input2"
+			(at 139.7 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ISOM8600DFGR"
+			(at 139.7 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 139.7 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid b767eb6c-9055-55c8-8ff8-4ef4158780e3)
+		)
+		(pin "2"
+			(uuid 5696db62-5ec4-5cb8-bead-8f325b0341ec)
+		)
+		(pin "3"
+			(uuid e3660f6b-8920-56b8-8e4e-47ee0eff68b0)
+		)
+		(pin "4"
+			(uuid 6da648ba-baed-54aa-a687-f8200b4fa11b)
+		)
+		(instances
+			(project "usb_debug_ctrl"
+				(path "/0add0b91-61de-5ebf-8332-eb1e3f9bae23/2204f73e-865f-537d-b558-3a33bf71e0eb"
+					(reference "U321")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "usb_debug_ctrl:ISOM8600")
+		(at 139.7 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 057578c2-889b-5f10-9cc2-170ea6063c82)
+		(property "Reference" "U331"
+			(at 135.382 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ISOM8600DFGR"
+			(at 149.098 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "usb_relay:SO-4_4.4x3.6mm_P2.54mm_usb_relay"
+			(at 139.7 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Block" "input3"
+			(at 139.7 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ISOM8600DFGR"
+			(at 139.7 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 139.7 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid 13bb5046-bb24-5bbd-be4c-fde245e04906)
+		)
+		(pin "2"
+			(uuid 160866bc-9786-5e37-90d7-f45d7353e75d)
+		)
+		(pin "3"
+			(uuid 8c8337ea-cf35-54b1-af5e-80c8dfb48307)
+		)
+		(pin "4"
+			(uuid 4f337af5-fe5e-517d-8a5e-ed64ec55f4c0)
+		)
+		(instances
+			(project "usb_debug_ctrl"
+				(path "/0add0b91-61de-5ebf-8332-eb1e3f9bae23/2204f73e-865f-537d-b558-3a33bf71e0eb"
+					(reference "U331")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "usb_debug_ctrl:ISOM8600")
+		(at 139.7 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 6499c6d2-f966-5a7e-bcbb-fc1dca4c80ff)
+		(property "Reference" "U341"
+			(at 135.382 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ISOM8600DFGR"
+			(at 149.098 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "usb_relay:SO-4_4.4x3.6mm_P2.54mm_usb_relay"
+			(at 139.7 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Block" "input4"
+			(at 139.7 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ISOM8600DFGR"
+			(at 139.7 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 139.7 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid 8815b30a-c66c-551f-a702-daeed68889f4)
+		)
+		(pin "2"
+			(uuid d9d10dc8-17a9-56eb-9836-b2a4eacf1893)
+		)
+		(pin "3"
+			(uuid bfbe956d-1b28-5b6a-8708-0ddf8e9e242f)
+		)
+		(pin "4"
+			(uuid 6610d0be-7219-5100-a236-17b021a06176)
+		)
+		(instances
+			(project "usb_debug_ctrl"
+				(path "/0add0b91-61de-5ebf-8332-eb1e3f9bae23/2204f73e-865f-537d-b558-3a33bf71e0eb"
+					(reference "U341")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "usb_debug_ctrl:GND")
+		(at 148.59 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 038cd3dd-6102-5da2-b7f2-33163ef245ac)
+		(property "Reference" "#PWR064"
+			(at 148.59 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.543 48.26 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid 83b2fdb6-c02b-552d-82c4-f2dfb4f3015f)
+		)
+		(instances
+			(project "usb_debug_ctrl"
+				(path "/0add0b91-61de-5ebf-8332-eb1e3f9bae23/2204f73e-865f-537d-b558-3a33bf71e0eb"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "usb_debug_ctrl:GND")
+		(at 180.34 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 494c12af-c83a-53b1-bd50-67639584b89d)
+		(property "Reference" "#PWR065"
+			(at 180.34 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.34 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid 6f145c7e-1795-51e4-a17e-b9cc0473c8a0)
+		)
+		(instances
+			(project "usb_debug_ctrl"
+				(path "/0add0b91-61de-5ebf-8332-eb1e3f9bae23/2204f73e-865f-537d-b558-3a33bf71e0eb"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "usb_debug_ctrl:GND")
+		(at 148.59 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 385f04c7-48a6-57df-b4e4-2764742acb77)
+		(property "Reference" "#PWR066"
+			(at 148.59 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.543 93.98 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid 110f034d-a98b-5c8e-b0a9-1cd4b86d8d8a)
+		)
+		(instances
+			(project "usb_debug_ctrl"
+				(path "/0add0b91-61de-5ebf-8332-eb1e3f9bae23/2204f73e-865f-537d-b558-3a33bf71e0eb"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "usb_debug_ctrl:GND")
+		(at 180.34 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 1a2cee67-25d5-5dc6-a9c6-2892522ece7b)
+		(property "Reference" "#PWR067"
+			(at 180.34 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.34 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid 18d83fd0-869e-59d6-a971-283ea0b904e7)
+		)
+		(instances
+			(project "usb_debug_ctrl"
+				(path "/0add0b91-61de-5ebf-8332-eb1e3f9bae23/2204f73e-865f-537d-b558-3a33bf71e0eb"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "usb_debug_ctrl:GND")
+		(at 148.59 139.7 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid f5bca91f-fbb8-5ef5-8a1c-5f32061fee55)
+		(property "Reference" "#PWR068"
+			(at 148.59 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.543 139.7 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid 4c57e4a8-274e-5ced-aa47-d1060a035ea6)
+		)
+		(instances
+			(project "usb_debug_ctrl"
+				(path "/0add0b91-61de-5ebf-8332-eb1e3f9bae23/2204f73e-865f-537d-b558-3a33bf71e0eb"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "usb_debug_ctrl:GND")
+		(at 180.34 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid c83b1228-1346-5d73-942c-1f5ba59fe0c9)
+		(property "Reference" "#PWR069"
+			(at 180.34 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.34 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid 687758be-ced6-5cae-913d-4df544bdc224)
+		)
+		(instances
+			(project "usb_debug_ctrl"
+				(path "/0add0b91-61de-5ebf-8332-eb1e3f9bae23/2204f73e-865f-537d-b558-3a33bf71e0eb"
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "usb_debug_ctrl:GND")
+		(at 148.59 185.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid c4a72f4b-98ba-581d-a55c-ac0e91581b4b)
+		(property "Reference" "#PWR070"
+			(at 148.59 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.543 185.42 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid 3fe0cc4b-5bbe-59f7-8b21-15ba543b2200)
+		)
+		(instances
+			(project "usb_debug_ctrl"
+				(path "/0add0b91-61de-5ebf-8332-eb1e3f9bae23/2204f73e-865f-537d-b558-3a33bf71e0eb"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "usb_debug_ctrl:GND")
+		(at 180.34 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 1d8312d4-2f3f-50ff-884b-607a0dad6117)
+		(property "Reference" "#PWR071"
+			(at 180.34 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.34 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid 7f64d6e4-24a3-545c-8abe-d4c1684a965c)
+		)
+		(instances
+			(project "usb_debug_ctrl"
+				(path "/0add0b91-61de-5ebf-8332-eb1e3f9bae23/2204f73e-865f-537d-b558-3a33bf71e0eb"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "usb_debug_ctrl:GND")
+		(at 53.34 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 278c3d0d-6fe4-5567-8cda-628be66c326e)
+		(property "Reference" "#PWR072"
+			(at 53.34 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 53.34 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid 6bebc65d-cf5e-5e02-a825-327e40b449fc)
+		)
+		(instances
+			(project "usb_debug_ctrl"
+				(path "/0add0b91-61de-5ebf-8332-eb1e3f9bae23/2204f73e-865f-537d-b558-3a33bf71e0eb"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "usb_debug_ctrl:CONTROL_3V3")
+		(at 157.48 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid abf788b6-db48-517d-8ca6-6b449a390d54)
+		(property "Reference" "#PWR073"
+			(at 157.48 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CONTROL_3V3"
+			(at 157.48 29.464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid 84d45770-69f4-526a-9754-111c82ad2d7c)
+		)
+		(instances
+			(project "usb_debug_ctrl"
+				(path "/0add0b91-61de-5ebf-8332-eb1e3f9bae23/2204f73e-865f-537d-b558-3a33bf71e0eb"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "IN1_P"
+		(at 68.58 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid 0bcc7c77-6c08-5c5d-baad-577bc37b528f)
+	)
+	(symbol
+		(lib_id "usb_debug_ctrl:CONTROL_3V3")
+		(at 157.48 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid b298c9e7-9cf4-50ea-8d00-ad0e826bf622)
+		(property "Reference" "#PWR074"
+			(at 157.48 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CONTROL_3V3"
+			(at 157.48 75.184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid 23629ceb-f61e-5a5d-9133-b97fa86cb6eb)
+		)
+		(instances
+			(project "usb_debug_ctrl"
+				(path "/0add0b91-61de-5ebf-8332-eb1e3f9bae23/2204f73e-865f-537d-b558-3a33bf71e0eb"
+					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "IN2_P"
+		(at 68.58 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid 76336f1b-9d13-5181-bf22-70f13a9fc30d)
+	)
+	(symbol
+		(lib_id "usb_debug_ctrl:CONTROL_3V3")
+		(at 157.48 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid fa503b05-113c-57e0-909d-4c7368106f6b)
+		(property "Reference" "#PWR075"
+			(at 157.48 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CONTROL_3V3"
+			(at 157.48 120.904 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid ea734c36-32da-5dd2-80b1-feb5da7b79e5)
+		)
+		(instances
+			(project "usb_debug_ctrl"
+				(path "/0add0b91-61de-5ebf-8332-eb1e3f9bae23/2204f73e-865f-537d-b558-3a33bf71e0eb"
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "IN3_P"
+		(at 68.58 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid e3714d3f-9ebc-5592-9105-916aa59a25cc)
+	)
+	(symbol
+		(lib_id "usb_debug_ctrl:CONTROL_3V3")
+		(at 157.48 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 258ef515-fcef-54ea-ac82-e2ca818c2937)
+		(property "Reference" "#PWR076"
+			(at 157.48 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CONTROL_3V3"
+			(at 157.48 166.624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid 57796760-d252-5d46-a58b-95aa5754b097)
+		)
+		(instances
+			(project "usb_debug_ctrl"
+				(path "/0add0b91-61de-5ebf-8332-eb1e3f9bae23/2204f73e-865f-537d-b558-3a33bf71e0eb"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "IN4_P"
+		(at 68.58 182.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid 0ab9bc8d-e2c4-5657-a9d4-919a80ca96df)
+	)
+	(label "IN1_M"
+		(at 41.91 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid c07f3f50-23a0-5ef5-85cb-8198fa60628f)
+	)
+	(label "IN1_P"
+		(at 41.91 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid 7f1f43ba-f1fa-5696-a9ea-a18bf6c969a7)
+	)
+	(label "IN2_M"
+		(at 41.91 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid 0315cd84-40da-5f13-8248-052eaf176f0d)
+	)
+	(label "IN2_P"
+		(at 41.91 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid a6d50177-6649-5aa6-bc1e-84d0d8238cfc)
+	)
+	(label "IN3_M"
+		(at 41.91 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid 293cd2ee-3db9-5ffb-a0d6-9b579c6e26d7)
+	)
+	(label "IN3_P"
+		(at 41.91 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid d1494da3-ad6e-5040-8da1-b754da891dec)
+	)
+	(label "IN4_M"
+		(at 41.91 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid c2d5951b-5eab-5bad-96bd-1f3c1634de58)
+	)
+	(label "IN4_P"
+		(at 41.91 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid 154660cb-2b29-5461-95ca-caa13b204d40)
+	)
+	(label "IN1_A"
+		(at 96.52 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid 05ed9b47-475e-51e4-b045-2acb1e20de7f)
+	)
+	(label "IN1_M"
+		(at 101.6 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid bac203e9-b0d1-5f7f-b9f7-20b1e598cf49)
+	)
+	(label "IN1_MID"
+		(at 80.01 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid ca6c42ba-4300-59cb-b4a0-cdc1fcd9690e)
+	)
+	(global_label "IN1_N"
+		(shape passive)
+		(at 181.61 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid 8151f34f-ff65-5d6e-a5e1-bdfa2b420c53)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.61 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(label "IN1_RAW"
+		(at 160.02 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid 0b303ddd-3ba9-5fd4-8943-1a2a16a13e2b)
+	)
+	(label "IN2_A"
+		(at 96.52 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid d3b0c82a-e46e-598f-92bf-ce91bee76bf8)
+	)
+	(label "IN2_M"
+		(at 101.6 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid 898afe0b-e51a-5606-815d-04eeee15c268)
+	)
+	(label "IN2_MID"
+		(at 80.01 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid 65425209-a5d1-57b0-9e9e-3cf9ad0b6d3c)
+	)
+	(global_label "IN2_N"
+		(shape passive)
+		(at 181.61 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid 2705f495-8802-5743-8985-342c62e132f7)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.61 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(label "IN2_RAW"
+		(at 160.02 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid 210cf0c7-0642-545d-b4af-13cc84b65ef9)
+	)
+	(label "IN3_A"
+		(at 96.52 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid 8bd72e7b-a147-5183-b195-15c784a0a32a)
+	)
+	(label "IN3_M"
+		(at 101.6 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid b3cf3f52-9561-5c5e-a760-64bae4e636af)
+	)
+	(label "IN3_MID"
+		(at 80.01 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid cb2a5432-e4d7-5535-ad86-ff73c7cf10b9)
+	)
+	(global_label "IN3_N"
+		(shape passive)
+		(at 181.61 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid 5e54f75e-ec8b-578e-b124-0c60e4af5250)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.61 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(label "IN3_RAW"
+		(at 160.02 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid 218846e4-06ce-51ea-b18c-d06a8f50a3a3)
+	)
+	(label "IN4_A"
+		(at 96.52 182.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid 8b2deedd-98be-5ef0-bd1c-37bdd58a6405)
+	)
+	(label "IN4_M"
+		(at 101.6 193.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid e1ac7892-4fb6-5dd8-b919-f77f9cf2bddc)
+	)
+	(label "IN4_MID"
+		(at 80.01 180.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid 8fa61351-e51a-5d65-9477-1b492e56da8a)
+	)
+	(global_label "IN4_N"
+		(shape passive)
+		(at 181.61 182.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid f731d0a8-b3bd-5b5c-9efb-a2c17d994237)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.61 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(label "IN4_RAW"
+		(at 160.02 180.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid 7145eac7-890d-5e9e-ac46-f32e5a7c5f8f)
+	)
+	(wire
+		(pts
+			(xy 147.32 48.26)
+			(xy 148.59 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid eacb1534-0958-53f0-a6b9-a1b025072fa0)
+	)
+	(wire
+		(pts
+			(xy 180.34 57.15)
+			(xy 180.34 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 9c35cf75-5d70-5462-9368-165a3a03ea2a)
+	)
+	(wire
+		(pts
+			(xy 147.32 93.98)
+			(xy 148.59 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 875184cf-ea4c-59b3-b4b7-4255fc366cdd)
+	)
+	(wire
+		(pts
+			(xy 180.34 102.87)
+			(xy 180.34 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid d54f082f-fdf3-5b4c-a240-2e6d45a6db37)
+	)
+	(wire
+		(pts
+			(xy 147.32 139.7)
+			(xy 148.59 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 9ba6d85b-ddb9-5349-8791-01d363f079ab)
+	)
+	(wire
+		(pts
+			(xy 180.34 148.59)
+			(xy 180.34 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid cb3ab7db-3770-5fc6-a087-db52e4427ed4)
+	)
+	(wire
+		(pts
+			(xy 147.32 185.42)
+			(xy 148.59 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 5898110d-508d-5335-8044-ff0478a6c694)
+	)
+	(wire
+		(pts
+			(xy 180.34 194.31)
+			(xy 180.34 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid c0f0dfaf-c0ba-5df6-bf75-1fcabd52291a)
+	)
+	(wire
+		(pts
+			(xy 53.34 99.06)
+			(xy 53.34 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid fd1a65ff-7653-5cee-94c3-e56b6dd1d3a5)
+	)
+	(wire
+		(pts
+			(xy 157.48 34.29)
+			(xy 157.48 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 3b92905c-50ce-5357-b4c0-f03e72928743)
+	)
+	(wire
+		(pts
+			(xy 69.85 45.72)
+			(xy 68.58 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 5749825d-36c6-5357-a656-f8e095fe885f)
+	)
+	(wire
+		(pts
+			(xy 157.48 80.01)
+			(xy 157.48 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 2c3143f8-7f20-50ec-8382-ef7121460abb)
+	)
+	(wire
+		(pts
+			(xy 69.85 91.44)
+			(xy 68.58 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 9300db87-1b3f-53b5-9750-81a2ff532eac)
+	)
+	(wire
+		(pts
+			(xy 157.48 125.73)
+			(xy 157.48 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 704c38e2-bdfd-5d7e-b4c2-20e9a9fc651a)
+	)
+	(wire
+		(pts
+			(xy 69.85 137.16)
+			(xy 68.58 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 4675bcf7-0a24-51a2-9ec8-958261c73162)
+	)
+	(wire
+		(pts
+			(xy 157.48 171.45)
+			(xy 157.48 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid b8845b04-af23-5212-b57e-05e4b57aa875)
+	)
+	(wire
+		(pts
+			(xy 69.85 182.88)
+			(xy 68.58 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid b244c9d9-7f1a-56a8-ac45-ccff86cc9556)
+	)
+	(wire
+		(pts
+			(xy 40.64 43.18)
+			(xy 41.91 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid bce68204-6daa-5ad5-a534-3be57624fe6e)
+	)
+	(wire
+		(pts
+			(xy 40.64 38.1)
+			(xy 41.91 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 8085950a-a463-5dbe-b24b-1909e3a2b698)
+	)
+	(wire
+		(pts
+			(xy 40.64 53.34)
+			(xy 41.91 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 8d6c4c92-eea7-54d3-a215-f33ef9584d12)
+	)
+	(wire
+		(pts
+			(xy 40.64 48.26)
+			(xy 41.91 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid cf0a59da-093a-5bc6-ae0d-05ee5725f332)
+	)
+	(wire
+		(pts
+			(xy 40.64 63.5)
+			(xy 41.91 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 4be7cffe-ea7a-5888-9fcf-357aaac4ddad)
+	)
+	(wire
+		(pts
+			(xy 40.64 58.42)
+			(xy 41.91 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid a083ee83-4b10-5d02-8202-73992a629558)
+	)
+	(wire
+		(pts
+			(xy 40.64 73.66)
+			(xy 41.91 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid b7e25243-d54e-5d44-9484-85c6adf231b4)
+	)
+	(wire
+		(pts
+			(xy 40.64 68.58)
+			(xy 41.91 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 60e5b9f0-6dc6-5861-9b10-3a4e8b3d7bc0)
+	)
+	(wire
+		(pts
+			(xy 87.63 45.72)
+			(xy 78.74 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 9a5c0a2c-ff8d-5eef-996b-612a9ce3a5ab)
+	)
+	(wire
+		(pts
+			(xy 78.74 45.72)
+			(xy 77.47 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 55f8d4cc-6011-5a9e-9934-84796fc2e43a)
+	)
+	(wire
+		(pts
+			(xy 87.63 91.44)
+			(xy 78.74 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid f59e78b6-1367-5254-af8f-17d5e3296b00)
+	)
+	(wire
+		(pts
+			(xy 78.74 91.44)
+			(xy 77.47 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 26e9e184-d4b2-5664-9e1e-b30cf4a12df0)
+	)
+	(wire
+		(pts
+			(xy 87.63 137.16)
+			(xy 78.74 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid c81c656c-71f7-57a3-a821-1df1e2c5f4a1)
+	)
+	(wire
+		(pts
+			(xy 78.74 137.16)
+			(xy 77.47 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid f78a31d1-4761-5676-8af4-5bb797058a82)
+	)
+	(wire
+		(pts
+			(xy 87.63 182.88)
+			(xy 78.74 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 03a63fd7-33d5-58b7-8024-3d4095d2043e)
+	)
+	(wire
+		(pts
+			(xy 78.74 182.88)
+			(xy 77.47 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 6ef3a9cf-b2db-5094-9932-7d94c2d949a4)
+	)
+	(wire
+		(pts
+			(xy 180.34 49.53)
+			(xy 180.34 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 2c563735-7fe8-59a3-9da6-67feb1ee4609)
+	)
+	(wire
+		(pts
+			(xy 180.34 45.72)
+			(xy 171.45 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 3ed61112-d490-5d3e-a2a8-beb91f184090)
+	)
+	(wire
+		(pts
+			(xy 180.34 95.25)
+			(xy 180.34 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 075dc400-e113-51bd-98dd-50b5a9c63da3)
+	)
+	(wire
+		(pts
+			(xy 180.34 91.44)
+			(xy 171.45 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 2d009e42-2f24-5f14-87d3-e0882d8d3129)
+	)
+	(wire
+		(pts
+			(xy 180.34 140.97)
+			(xy 180.34 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid f18868d9-c7c3-5cdd-9522-8cd3406018f2)
+	)
+	(wire
+		(pts
+			(xy 180.34 137.16)
+			(xy 171.45 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid cfc21fde-d166-5a40-a38c-6a4c89dab698)
+	)
+	(wire
+		(pts
+			(xy 180.34 186.69)
+			(xy 180.34 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid fb615ef6-f018-51b6-8d99-60c26c8a74c7)
+	)
+	(wire
+		(pts
+			(xy 180.34 182.88)
+			(xy 171.45 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 2dbdd3d8-a4f0-5507-9310-38b142d21e5f)
+	)
+	(wire
+		(pts
+			(xy 157.48 41.91)
+			(xy 157.48 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid de2ddc32-f684-5cf8-8938-80f40956f0c8)
+	)
+	(wire
+		(pts
+			(xy 157.48 43.18)
+			(xy 157.48 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid a51856d1-71c5-5a02-89cd-4304645b243b)
+	)
+	(wire
+		(pts
+			(xy 157.48 45.72)
+			(xy 147.32 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 5866db7e-923c-57af-a9e0-406c99e5703a)
+	)
+	(wire
+		(pts
+			(xy 163.83 45.72)
+			(xy 157.48 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid c221c92a-2cc0-56c9-b277-ce395990a2c9)
+	)
+	(wire
+		(pts
+			(xy 157.48 87.63)
+			(xy 157.48 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 2f172664-6457-5c23-b8e6-950f8c57ae16)
+	)
+	(wire
+		(pts
+			(xy 157.48 88.9)
+			(xy 157.48 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 3dcf9747-0139-5aba-9b12-b51bb48c92ca)
+	)
+	(wire
+		(pts
+			(xy 157.48 91.44)
+			(xy 147.32 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 0bfa90b4-82f8-56f8-a294-5788df07214d)
+	)
+	(wire
+		(pts
+			(xy 163.83 91.44)
+			(xy 157.48 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 4610609e-ca78-5c08-a4d5-8db7aa4e91fc)
+	)
+	(wire
+		(pts
+			(xy 157.48 133.35)
+			(xy 157.48 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid d101a0b7-3aaa-5983-b251-3ef2158d6a78)
+	)
+	(wire
+		(pts
+			(xy 157.48 134.62)
+			(xy 157.48 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid db71e56e-887a-5a03-9482-c97aa023ab86)
+	)
+	(wire
+		(pts
+			(xy 157.48 137.16)
+			(xy 147.32 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 95c2c261-1913-522f-8119-32f5e4d29d19)
+	)
+	(wire
+		(pts
+			(xy 163.83 137.16)
+			(xy 157.48 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 67bb17a5-3179-5418-a0b6-c7a62cdf62c9)
+	)
+	(wire
+		(pts
+			(xy 157.48 179.07)
+			(xy 157.48 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 163cbd57-e975-5c07-b666-639645078b0c)
+	)
+	(wire
+		(pts
+			(xy 157.48 180.34)
+			(xy 157.48 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid e7e231fb-14bb-54bc-ab68-d2e29a39cc7d)
+	)
+	(wire
+		(pts
+			(xy 157.48 182.88)
+			(xy 147.32 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 6471282b-02b3-5b09-9dee-8d72dd105240)
+	)
+	(wire
+		(pts
+			(xy 163.83 182.88)
+			(xy 157.48 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid f3adfed1-eeb4-5703-9177-bd34e64f658e)
+	)
+	(wire
+		(pts
+			(xy 116.84 54.61)
+			(xy 116.84 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid ca55b35a-84ab-53ee-8ce1-34a883e45813)
+	)
+	(wire
+		(pts
+			(xy 116.84 55.88)
+			(xy 139.7 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 84a742cd-865f-579b-af85-8fb7c60ef51a)
+	)
+	(wire
+		(pts
+			(xy 139.7 55.88)
+			(xy 139.7 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 3d05f558-11ad-5749-b2e4-b3c6b48b5fda)
+	)
+	(wire
+		(pts
+			(xy 104.14 54.61)
+			(xy 104.14 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 67050d7d-1987-5c66-ac7d-252bead4f12a)
+	)
+	(wire
+		(pts
+			(xy 104.14 55.88)
+			(xy 116.84 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 5548a44f-9b66-51e8-8fb2-1217dc8fcb50)
+	)
+	(wire
+		(pts
+			(xy 116.84 100.33)
+			(xy 116.84 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid d172e1c9-ec29-545e-8c51-9ef86a81adca)
+	)
+	(wire
+		(pts
+			(xy 116.84 101.6)
+			(xy 139.7 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 8a00984b-6829-5463-a092-09eab2fa2bec)
+	)
+	(wire
+		(pts
+			(xy 139.7 101.6)
+			(xy 139.7 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 5d208cb1-bbb1-5b7f-b469-668ba75f5472)
+	)
+	(wire
+		(pts
+			(xy 104.14 100.33)
+			(xy 104.14 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid ef2acf06-956a-519d-ab3f-ba155cd04410)
+	)
+	(wire
+		(pts
+			(xy 104.14 101.6)
+			(xy 116.84 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 13b12db3-6f49-599f-8f0f-d1ec74931e49)
+	)
+	(wire
+		(pts
+			(xy 116.84 146.05)
+			(xy 116.84 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 8c521a91-c4ec-5d73-9cc6-b9513f89d08b)
+	)
+	(wire
+		(pts
+			(xy 116.84 147.32)
+			(xy 139.7 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid e3c59908-b38e-5a5b-a49b-d29b4e973a7a)
+	)
+	(wire
+		(pts
+			(xy 139.7 147.32)
+			(xy 139.7 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 02bb6b36-f41a-5107-91c4-222b2365ab6d)
+	)
+	(wire
+		(pts
+			(xy 104.14 146.05)
+			(xy 104.14 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 2ec8abef-5d53-598f-91cb-0bc3ff730c7b)
+	)
+	(wire
+		(pts
+			(xy 104.14 147.32)
+			(xy 116.84 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid ac1fd182-cac7-5a38-a7e6-4121b8965c57)
+	)
+	(wire
+		(pts
+			(xy 116.84 191.77)
+			(xy 116.84 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 079fd8fe-2117-5275-8ffb-82828cd97f60)
+	)
+	(wire
+		(pts
+			(xy 116.84 193.04)
+			(xy 139.7 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid af6d6895-6496-581b-bd94-d62276eeba66)
+	)
+	(wire
+		(pts
+			(xy 139.7 193.04)
+			(xy 139.7 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid c2a85625-2f91-5103-89a6-7dd8d6a14dc7)
+	)
+	(wire
+		(pts
+			(xy 104.14 191.77)
+			(xy 104.14 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 4b74d84a-98a6-5476-966d-bc076b9a4584)
+	)
+	(wire
+		(pts
+			(xy 104.14 193.04)
+			(xy 116.84 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 7a3914a8-939d-50bc-8c8c-1b97b5f5de5b)
+	)
+	(wire
+		(pts
+			(xy 116.84 46.99)
+			(xy 116.84 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 38409c35-8ca6-5d2f-9cc4-091842171c08)
+	)
+	(wire
+		(pts
+			(xy 116.84 45.72)
+			(xy 132.08 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid c4cb188e-d6d1-53a3-ab69-6e781905f30c)
+	)
+	(wire
+		(pts
+			(xy 104.14 46.99)
+			(xy 104.14 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid cfee8558-9919-5ed7-85ab-a3161d55795f)
+	)
+	(wire
+		(pts
+			(xy 104.14 45.72)
+			(xy 116.84 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 28678fbb-9d62-52cf-8417-477f888811a1)
+	)
+	(wire
+		(pts
+			(xy 95.25 45.72)
+			(xy 96.52 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 9a8beaf7-173b-5f59-953f-8fdaa10df8f7)
+	)
+	(wire
+		(pts
+			(xy 96.52 45.72)
+			(xy 104.14 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 3f9150cd-8943-5bcd-a1da-2abbbf5d08cd)
+	)
+	(wire
+		(pts
+			(xy 116.84 92.71)
+			(xy 116.84 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 62813f60-d866-5095-a130-8c1704fbdfd7)
+	)
+	(wire
+		(pts
+			(xy 116.84 91.44)
+			(xy 132.08 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid ca725d42-f1d7-5c9b-9f5a-51cc19e42be6)
+	)
+	(wire
+		(pts
+			(xy 104.14 92.71)
+			(xy 104.14 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 764f48cf-0968-5e37-8738-4acf7c3f7546)
+	)
+	(wire
+		(pts
+			(xy 104.14 91.44)
+			(xy 116.84 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid d9c7ae7f-a6c4-5210-9977-417a71774a13)
+	)
+	(wire
+		(pts
+			(xy 95.25 91.44)
+			(xy 96.52 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid f6033e0b-16c0-5417-beda-b628d358268a)
+	)
+	(wire
+		(pts
+			(xy 96.52 91.44)
+			(xy 104.14 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 776b2651-6306-5b48-815a-e96657ac5c63)
+	)
+	(wire
+		(pts
+			(xy 116.84 138.43)
+			(xy 116.84 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid c9832982-765c-5f59-a94d-fa84b383b950)
+	)
+	(wire
+		(pts
+			(xy 116.84 137.16)
+			(xy 132.08 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 887a9913-321d-5ebc-b4ee-b2f45798de34)
+	)
+	(wire
+		(pts
+			(xy 104.14 138.43)
+			(xy 104.14 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 8af133c1-8457-5fa5-996b-1e875e6f3f11)
+	)
+	(wire
+		(pts
+			(xy 104.14 137.16)
+			(xy 116.84 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid a5cd70ae-e840-5da5-acf0-851c11ab65ca)
+	)
+	(wire
+		(pts
+			(xy 95.25 137.16)
+			(xy 96.52 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid e65cb5c2-fa24-5775-baea-c6be69f7a283)
+	)
+	(wire
+		(pts
+			(xy 96.52 137.16)
+			(xy 104.14 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 0e9921fa-4726-560e-a92a-c5d085f34634)
+	)
+	(wire
+		(pts
+			(xy 116.84 184.15)
+			(xy 116.84 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 5b50906a-0fba-5b34-b1b5-5af63bf0d04e)
+	)
+	(wire
+		(pts
+			(xy 116.84 182.88)
+			(xy 132.08 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid d4e0a689-8830-5370-b776-f0a20f1f4023)
+	)
+	(wire
+		(pts
+			(xy 104.14 184.15)
+			(xy 104.14 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 31e67b4a-7caa-5256-98c2-31b044ee9e41)
+	)
+	(wire
+		(pts
+			(xy 104.14 182.88)
+			(xy 116.84 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 8a64353e-c0b8-5543-82f1-5d2e43a761ad)
+	)
+	(wire
+		(pts
+			(xy 95.25 182.88)
+			(xy 96.52 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid e376c013-0675-511b-a59a-a76f9b5ea601)
+	)
+	(wire
+		(pts
+			(xy 96.52 182.88)
+			(xy 104.14 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid eef00142-3153-508c-8c87-bc70d6e919a9)
+	)
+	(wire
+		(pts
+			(xy 104.14 55.88)
+			(xy 101.6 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 04a59e9e-1d9e-51f9-8a98-7db20eeca80f)
+	)
+	(wire
+		(pts
+			(xy 78.74 45.72)
+			(xy 78.74 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 2ee4038d-468c-5be6-9baf-6360259c2186)
+	)
+	(wire
+		(pts
+			(xy 78.74 43.18)
+			(xy 80.01 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid cab0182c-dd66-5073-911d-e301ad7cbe06)
+	)
+	(wire
+		(pts
+			(xy 180.34 45.72)
+			(xy 181.61 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 9e3321a7-eb78-5428-a875-e6e0e04cf94a)
+	)
+	(wire
+		(pts
+			(xy 157.48 43.18)
+			(xy 160.02 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 88f76b39-ab72-59a0-af0f-e6b9aa69a9d8)
+	)
+	(wire
+		(pts
+			(xy 104.14 101.6)
+			(xy 101.6 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 20a51517-60a7-58bd-9e96-3a599749543a)
+	)
+	(wire
+		(pts
+			(xy 78.74 91.44)
+			(xy 78.74 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 1bcd5716-a343-511d-984e-08025db35a37)
+	)
+	(wire
+		(pts
+			(xy 78.74 88.9)
+			(xy 80.01 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid f0385b84-2696-5b65-9cac-1335ef4e0761)
+	)
+	(wire
+		(pts
+			(xy 180.34 91.44)
+			(xy 181.61 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid e1538a26-53f9-584c-8ca2-58018e86437f)
+	)
+	(wire
+		(pts
+			(xy 157.48 88.9)
+			(xy 160.02 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 078b7c53-2884-5f25-807f-9a4024bd5f7c)
+	)
+	(wire
+		(pts
+			(xy 104.14 147.32)
+			(xy 101.6 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid cda50bf3-b9f4-53e5-bbff-5e4f2719c046)
+	)
+	(wire
+		(pts
+			(xy 78.74 137.16)
+			(xy 78.74 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 3cd26503-7367-57aa-b43f-4ce59e5f7446)
+	)
+	(wire
+		(pts
+			(xy 78.74 134.62)
+			(xy 80.01 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid c4b1d42a-fbd7-596a-aaa8-6ed52c3ddcfa)
+	)
+	(wire
+		(pts
+			(xy 180.34 137.16)
+			(xy 181.61 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 6c5f360d-d67f-5aa3-a1f2-d1edca190b2d)
+	)
+	(wire
+		(pts
+			(xy 157.48 134.62)
+			(xy 160.02 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid fe9d8205-a2fc-5cec-80b8-db9b11d1f02c)
+	)
+	(wire
+		(pts
+			(xy 104.14 193.04)
+			(xy 101.6 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 3d8a943a-4662-5096-b75e-47818c04e2d9)
+	)
+	(wire
+		(pts
+			(xy 78.74 182.88)
+			(xy 78.74 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid b21d5521-7a7d-5bdf-b3bc-98ad4be92936)
+	)
+	(wire
+		(pts
+			(xy 78.74 180.34)
+			(xy 80.01 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 906032d8-c003-57e2-9945-45c14735eff2)
+	)
+	(wire
+		(pts
+			(xy 180.34 182.88)
+			(xy 181.61 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 9e8dc476-0755-5fd2-8fd4-6a2fcee524eb)
+	)
+	(wire
+		(pts
+			(xy 157.48 180.34)
+			(xy 160.02 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 7af66554-88f3-5702-a147-c1df27202d97)
+	)
+	(junction
+		(at 78.74 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid 82b08c2f-d2c7-5bb5-b926-b14a9e1dbb68)
+	)
+	(junction
+		(at 78.74 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid 1ff59f61-6db2-5813-90b1-ad13495618d7)
+	)
+	(junction
+		(at 78.74 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid 24ea40ad-d2fd-536b-bde6-3f88ae2f170b)
+	)
+	(junction
+		(at 78.74 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid d16ea8d3-56b8-57ad-95e0-2848f7101820)
+	)
+	(junction
+		(at 180.34 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid 16b32415-9a32-5b41-8f7c-d57f498208c1)
+	)
+	(junction
+		(at 180.34 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid 30605760-fe5c-5e0a-ab3e-90f752967a00)
+	)
+	(junction
+		(at 180.34 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid 81b7b1a4-12d4-5015-ad68-fcc26d489375)
+	)
+	(junction
+		(at 180.34 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid 81b27a36-d7be-568f-8de6-8232da6d34d3)
+	)
+	(junction
+		(at 157.48 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid b810df6e-c56e-5381-8ae9-2c5a0ea4b657)
+	)
+	(junction
+		(at 157.48 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid 51c5e549-52d4-53d7-8c77-ec9e4f4c9e77)
+	)
+	(junction
+		(at 157.48 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid 41958837-ed75-5bfd-812c-44b99201c25f)
+	)
+	(junction
+		(at 157.48 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid cc4a5290-547b-5bb0-a5f4-c032baecf402)
+	)
+	(junction
+		(at 157.48 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid 0ce3454a-5644-5a70-a743-aba0ff775a6d)
+	)
+	(junction
+		(at 157.48 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid b50f78d9-7ee8-5f49-807f-86990fb17eea)
+	)
+	(junction
+		(at 157.48 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid 1303449d-4d15-5b08-9447-2059fde3fa69)
+	)
+	(junction
+		(at 157.48 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid 481845ba-4867-5489-8d34-b7da6b79cd8a)
+	)
+	(junction
+		(at 116.84 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid 5a106450-a57e-535a-b52e-c3c4707465a0)
+	)
+	(junction
+		(at 104.14 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid 66ca2c63-6c06-5df9-babd-e7c9bc72a043)
+	)
+	(junction
+		(at 116.84 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid 592d93ab-a773-577a-b1e0-b106b1e9800b)
+	)
+	(junction
+		(at 104.14 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid 7ab9aa44-db47-55ff-81cd-dfcfc8fd619e)
+	)
+	(junction
+		(at 116.84 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid be012432-3bda-56c9-9e44-5ef2dbc6d5ac)
+	)
+	(junction
+		(at 104.14 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid 3acac15f-2b07-5bb0-8703-e11195a16f0f)
+	)
+	(junction
+		(at 116.84 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid 81d068ac-3e49-57c9-9eb4-1b4be329920e)
+	)
+	(junction
+		(at 104.14 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid 2daebddc-7ffc-504e-87c9-1d9180db91c6)
+	)
+	(junction
+		(at 116.84 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid 21996602-bc5e-5fd1-9189-9ae988a5f657)
+	)
+	(junction
+		(at 104.14 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid 887fd087-2b46-5cf1-97e4-521ed659ab7b)
+	)
+	(junction
+		(at 116.84 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid 0ecd9972-9910-5ba9-a734-0878f8e88468)
+	)
+	(junction
+		(at 104.14 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid 2d0bbe0f-91ab-5ceb-a1d7-e57b6eb00d0c)
+	)
+	(junction
+		(at 116.84 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid 383b343c-4a6c-5a96-867e-895177becd7d)
+	)
+	(junction
+		(at 104.14 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid 4b0de321-6a56-5485-903e-2af0c0febfc0)
+	)
+	(junction
+		(at 116.84 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid 79747c8b-332d-529a-9bdb-55e8bfcc44b1)
+	)
+	(junction
+		(at 104.14 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid 95a33665-3aed-535d-b90b-44e3bca1fed3)
+	)
+	(text "INPUT HEADER J301"
+		(exclude_from_sim no)
+		(at 27.94 30.48 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(bold yes)
+				(color 0 0 132 1)
+			)
+			(justify left bottom)
+		)
+		(uuid 77db0af7-faaa-5342-8f61-6aad01e3f951)
+	)
+	(text "ISOLATED INPUT 1"
+		(exclude_from_sim no)
+		(at 69.85 31.75 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(bold yes)
+				(color 0 0 132 1)
+			)
+			(justify left bottom)
+		)
+		(uuid 0a88acd9-8e53-5e8d-811a-57e336f7655a)
+	)
+	(text "ISOLATED INPUT 2"
+		(exclude_from_sim no)
+		(at 69.85 77.47 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(bold yes)
+				(color 0 0 132 1)
+			)
+			(justify left bottom)
+		)
+		(uuid bb58829a-25e6-5064-8722-26241e86f592)
+	)
+	(text "ISOLATED INPUT 3"
+		(exclude_from_sim no)
+		(at 69.85 123.19 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(bold yes)
+				(color 0 0 132 1)
+			)
+			(justify left bottom)
+		)
+		(uuid 8711cb37-4094-5079-8fdf-15f55ccc7599)
+	)
+	(text "ISOLATED INPUT 4"
+		(exclude_from_sim no)
+		(at 69.85 168.91 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(bold yes)
+				(color 0 0 132 1)
+			)
+			(justify left bottom)
+		)
+		(uuid 8c3e9b2a-ce2e-51f4-befa-67685eb9cb07)
+	)
+	(text "Isolated input 3-12 V, IN- per channel"
+		(exclude_from_sim no)
+		(at 210 24 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid ef5b5954-afef-59ce-84ea-fe8db863b6c9)
+	)
+	(embedded_fonts no)
+)
