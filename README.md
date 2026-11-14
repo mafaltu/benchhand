@@ -7,7 +7,7 @@
 Press buttons, flip switches, power-cycle boards, unplug USB and read signals from a script, a CI job or an AI agent.</p>
 
 <p align="center">
-  <img src="enclosure/renders/benchhand_closed.png" alt="BenchHand in its 3D-printed enclosure" width="60%">
+  <img src="enclosure/renders/benchhand_closed.png" alt="BenchHand in its 3D-printed enclosure" width="85%">
 </p>
 
 <p align="center">
@@ -181,7 +181,7 @@ The full agent guide, including the table of all commands of the current protoco
 | 5. Enclosure | Print the two parts (generic 3MF / STEP), insert 4 screws | [enclosure](enclosure/PRINTING.md) |
 
 <p align="center">
-  <img src="enclosure/renders/benchhand_exploded.png" alt="Exploded view: lid, board, bottom" width="60%">
+  <img src="enclosure/renders/benchhand_exploded.png" alt="Exploded view: lid, board, bottom" width="80%">
 </p>
 
 ## Repository layout
