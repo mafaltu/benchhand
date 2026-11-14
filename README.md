@@ -91,15 +91,12 @@ What people do with it (the list is open, a relay contact plus an input can stan
 
 ## How it works
 
-```mermaid
-flowchart LR
-    PC["PC / CI / AI agent"] -- "USB-C<br/>text protocol" --> MCU["STM32C071"]
-    MCU --> RLY["5 relays<br/>NC / COM / NO"]
-    IN["4 isolated inputs<br/>3-12 V"] --> MCU
-    MCU --> SW["USB switch<br/>eFuse + data switch"]
-    HOST["USB host"] -- "USB-B" --> SW -- "USB-A" --> DUT["Device under test"]
-    BTN["Buttons + LEDs"] <--> MCU
-```
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/images/block-diagram-dark.svg">
+    <img src="docs/images/block-diagram-light.svg" alt="Block diagram: a computer controls BenchHand over USB-C; BenchHand's MCU drives 5 relays (contacts to the device under test), reads 4 isolated inputs (signals from the device) and switches a USB passthrough from a USB host (USB-B) to the device (USB-A)" width="100%">
+  </picture>
+</p>
 
 The hardware design is described in [hardware/docs](hardware/docs/README.md), and the reasons behind the main choices
 are collected in [docs/design-decisions.md](docs/design-decisions.md).

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 400" width="960" height="400" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0969da"/></marker><marker id="am" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8c959f"/></marker></defs>
+<rect x="20" y="50" width="210" height="70" rx="8" fill="#f6f8fa" stroke="#8c959f" stroke-width="1.5"/>
+<text x="125.0" y="81.0" text-anchor="middle" font-size="14" font-weight="600" fill="#1f2328">Computer</text>
+<text x="125.0" y="98.0" text-anchor="middle" font-size="12" fill="#59636e">PC · CI runner · AI agent</text>
+<rect x="20" y="300" width="210" height="70" rx="8" fill="#f6f8fa" stroke="#8c959f" stroke-width="1.5"/>
+<text x="125.0" y="331.0" text-anchor="middle" font-size="14" font-weight="500" fill="#1f2328">USB host</text>
+<text x="125.0" y="348.0" text-anchor="middle" font-size="12" fill="#59636e">often the same computer</text>
+<rect x="290" y="20" width="370" height="370" rx="14" fill="#ddf4ff" stroke="#0969da" stroke-width="2"/>
+<text x="475" y="44" text-anchor="middle" font-size="15" font-weight="700" fill="#0969da">BenchHand</text>
+<rect x="320" y="58" width="320" height="52" rx="8" fill="#f6f8fa" stroke="#8c959f" stroke-width="1.5"/>
+<text x="480.0" y="80.0" text-anchor="middle" font-size="14" font-weight="600" fill="#1f2328">STM32C071 MCU</text>
+<text x="480.0" y="97.0" text-anchor="middle" font-size="12" fill="#59636e">USB serial · text protocol</text>
+<rect x="320" y="140" width="140" height="50" rx="8" fill="#f6f8fa" stroke="#8c959f" stroke-width="1.5"/>
+<text x="390.0" y="161.0" text-anchor="middle" font-size="14" font-weight="500" fill="#1f2328">Buttons</text>
+<text x="390.0" y="179.0" text-anchor="middle" font-size="14" font-weight="500" fill="#1f2328">+ LEDs</text>
+<rect x="500" y="140" width="140" height="50" rx="8" fill="#f6f8fa" stroke="#8c959f" stroke-width="1.5"/>
+<text x="570.0" y="161.0" text-anchor="middle" font-size="14" font-weight="500" fill="#1f2328">5 relays</text>
+<text x="570.0" y="178.0" text-anchor="middle" font-size="12" fill="#59636e">NC / COM / NO</text>
+<rect x="500" y="210" width="140" height="50" rx="8" fill="#f6f8fa" stroke="#8c959f" stroke-width="1.5"/>
+<text x="570.0" y="231.0" text-anchor="middle" font-size="14" font-weight="500" fill="#1f2328">4 isolated inputs</text>
+<text x="570.0" y="248.0" text-anchor="middle" font-size="12" fill="#59636e">3–12 V</text>
+<rect x="500" y="290" width="140" height="70" rx="8" fill="#f6f8fa" stroke="#8c959f" stroke-width="1.5"/>
+<text x="570.0" y="321.0" text-anchor="middle" font-size="14" font-weight="500" fill="#1f2328">USB switch</text>
+<text x="570.0" y="338.0" text-anchor="middle" font-size="12" fill="#59636e">eFuse + data switch</text>
+<rect x="710" y="20" width="230" height="370" rx="14" fill="#f6f8fa" stroke="#8c959f" stroke-width="1.5"/>
+<text x="825.0" y="210.0" text-anchor="middle" font-size="14" font-weight="600" fill="#1f2328"></text>
+<text x="825" y="48" text-anchor="middle" font-size="15" font-weight="700" fill="#1f2328">Device under test</text>
+<rect x="730" y="141" width="190" height="48" rx="6" fill="none" stroke="#8c959f" stroke-dasharray="4 3"/>
+<text x="825" y="162" text-anchor="middle" font-size="13" fill="#1f2328">buttons · power</text><text x="825" y="179" text-anchor="middle" font-size="13" fill="#1f2328">switches · jumpers</text>
+<rect x="730" y="211" width="190" height="48" rx="6" fill="none" stroke="#8c959f" stroke-dasharray="4 3"/>
+<text x="825" y="232" text-anchor="middle" font-size="13" fill="#1f2328">LEDs · output pins</text><text x="825" y="249" text-anchor="middle" font-size="13" fill="#1f2328">power rails</text>
+<rect x="730" y="301" width="190" height="48" rx="6" fill="none" stroke="#8c959f" stroke-dasharray="4 3"/>
+<text x="825" y="330" text-anchor="middle" font-size="13" fill="#1f2328">USB port</text>
+<line x1="480" y1="110" x2="480" y2="305" stroke="#8c959f" stroke-width="1.5"/>
+<line x1="480" y1="165" x2="500" y2="165" stroke="#8c959f" stroke-width="1.5" marker-end="url(#am)"/>
+<line x1="480" y1="165" x2="460" y2="165" stroke="#8c959f" stroke-width="1.5" marker-end="url(#am)"/>
+<line x1="480" y1="235" x2="500" y2="235" stroke="#8c959f" stroke-width="1.5" marker-end="url(#am)"/>
+<line x1="480" y1="305" x2="500" y2="305" stroke="#8c959f" stroke-width="1.5" marker-end="url(#am)"/>
+<line x1="230" y1="85" x2="320" y2="85" stroke="#0969da" stroke-width="2" marker-end="url(#ar)"/>
+<text x="258" y="77" text-anchor="middle" font-size="12" font-weight="600" fill="#0969da">USB-C</text>
+<line x1="230" y1="340" x2="500" y2="340" stroke="#0969da" stroke-width="2" marker-end="url(#ar)"/>
+<text x="258" y="332" text-anchor="middle" font-size="12" font-weight="600" fill="#0969da">USB-B</text>
+<line x1="640" y1="165" x2="730" y2="165" stroke="#0969da" stroke-width="2" marker-end="url(#ar)"/>
+<text x="685" y="157" text-anchor="middle" font-size="12" font-weight="600" fill="#0969da">contacts</text>
+<line x1="730" y1="235" x2="640" y2="235" stroke="#0969da" stroke-width="2" marker-end="url(#ar)"/>
+<text x="685" y="227" text-anchor="middle" font-size="12" font-weight="600" fill="#0969da">signals</text>
+<line x1="640" y1="325" x2="730" y2="325" stroke="#0969da" stroke-width="2" marker-end="url(#ar)"/>
+<text x="685" y="317" text-anchor="middle" font-size="12" font-weight="600" fill="#0969da">USB-A</text>
+</svg>
