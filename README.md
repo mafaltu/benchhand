@@ -174,7 +174,7 @@ The full agent guide, including the table of all commands of the current protoco
 | 1. PCB | Order the 2-layer board from the Gerbers (any standard prototype fab) | [hardware/fabrication](hardware/fabrication/) |
 | 2. Parts | Universal BOM: key specs, substitutes, Mouser / DigiKey / TME / LCSC codes | [hardware/bom](hardware/bom/README.md) |
 | 3. Assembly | Stencil + reflow for the SMD side, then the through-hole parts | [assembly notes](hardware/fabrication/benchhand-r1-assembly-notes.md) |
-| 4. Firmware | Build with CMake + arm-none-eabi-gcc, flash over SWD once, then over USB DFU | [firmware](firmware/README.md) |
+| 4. Firmware | Build with CMake + arm-none-eabi-gcc, flash over SWD once (generic Tag-Connect TC2050 cable, custom pinout: [adapter wiring](hardware/docs/README.md#adapter-wiring)), then over USB DFU | [firmware](firmware/README.md) |
 | 5. Enclosure | Print the two parts (generic 3MF / STEP), insert 4 screws | [enclosure](enclosure/PRINTING.md) |
 
 <p align="center">

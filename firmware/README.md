@@ -127,7 +127,10 @@ DFU path does not set the option byte; do that step once with the ST-Link. Fallb
 a power cycle (re-plug the control USB) or `$STM32_PROGRAMMER_CLI -c port=SWD freq=100 mode=UR -rst` with an ST-Link
 attached.
 
-With ST-Link (also for a blank chip), SWD at 100 kHz (`freq=100`):
+With ST-Link (also for a blank chip), SWD at 100 kHz (`freq=100`). The J102 TC2050 pads fit a generic TC2050-IDC-NL
+cable, but the pinout is custom: probe-specific cables (e.g. the ST-LINK STDC14 one) do not work. Wire the cable to
+the probe as in
+[hardware/docs/README.md#adapter-wiring](../hardware/docs/README.md#adapter-wiring):
 
 ```sh
 $STM32_PROGRAMMER_CLI -c port=SWD freq=100 mode=UR -w firmware/build-arm/usb_debug_ctrl.hex -v -rst

@@ -272,24 +272,60 @@ leaves them untouched or as inputs with pull-down), so nothing switches on while
 J102 is a footprint for a **Tag-Connect TC2050-IDC-NL** (no-legs) cable: ten copper pads plus three guide holes, no
 connector, no solder. You press the cable onto the pads.
 
-| Pad | Signal | Pad | Signal |
-|---|---|---|---|
-| 1 | not connected | 6 | GND |
-| 2 | SWDIO | 7 | PROG_TX (PA9, USART1 TX) |
-| 3 | NRST | 8 | not connected |
-| 4 | PROG_RX (PA10, USART1 RX) | 9 | SWCLK |
-| 5 | GND | 10 | not connected |
+The pads sit in two rows of five, pad 1 opposite pad 10, as in the footprint:
+
+| Pad | Signal | | Pad | Signal |
+|---|---|---|---|---|
+| 1 | not connected | ↔ | 10 | not connected |
+| 2 | SWDIO | ↔ | 9 | SWCLK |
+| 3 | NRST | ↔ | 8 | not connected |
+| 4 | PROG_RX (PA10, USART1 RX) | ↔ | 7 | PROG_TX (PA9, USART1 TX) |
+| 5 | GND | ↔ | 6 | GND |
 
 Important:
 
-- **This is not the standard ARM 10-pin / Tag-Connect SWD pinout.** It is a custom pad assignment. Check your cable or
-  adapter wiring against this table before connecting.
+- **The footprint is a standard TC2050, the pin assignment is not.** Any generic TC2050-IDC-NL cable fits the pads,
+  but the signals are in a custom order (the pads also carry the USART1 lines for the ROM UART bootloader and the debug
+  log), not the standard ARM 10-pin / Tag-Connect SWD order. You have to wire the cable's IDC connector to your probe
+  yourself, as in the table below.
+- **Cables made for a specific probe do not work.** For example, the ST-LINK V3 cable TC2050-IDC-NL-050-STDC14
+  connects pad n to STDC14 pin n+2, which would put NRST (pad 3) on GND (STDC14 pin 5) and SWCLK (pad 9) on GNDDetect
+  (STDC14 pin 11, grounded by the probe), so the probe cannot connect.
 - **There is no VTref / 3.3 V on the pads.** The programmer must use its own logic reference. If it needs a target
   voltage, take 3.3 V from test pad TP102.
 - Keep the SWD clock at **100 kHz** on r1 (see [known issues](known-issues.md)).
 - The board must be powered from the USB-C port while programming.
 - After the first flash you can update firmware without the cable: the firmware `BOOTLOADER` command starts the ROM
   USB DFU bootloader on the USB-C port (see the firmware README).
+
+### Adapter wiring
+
+Use a generic TC2050-IDC-NL cable (10-wire ribbon, 0.1" IDC connector) and wire its IDC end to the probe. Check with a
+continuity tester which IDC pin reaches which pad before you build the adapter. Wiring for an
+ST-LINK V3 (STDC14 connector), as used on the prototype:
+
+| J102 pad = cable IDC pin | Signal | ST-LINK V3 STDC14 pin |
+|---|---|---|
+| 2 | SWDIO | 4 (T_SWDIO) |
+| 9 | SWCLK | 6 (T_SWCLK) |
+| 3 | NRST | 12 (T_NRST) |
+| 5 | GND | 5 (GND) |
+| 6 | GND | 7 (GND) |
+| 4 | PROG_RX (target RX, PA10) | 13 (T_VCP_RX, probe output) |
+| 7 | PROG_TX (target TX, PA9) | 14 (T_VCP_TX, probe input) |
+| 1, 8, 10 | not connected | leave open |
+| (TP102) | CONTROL_3V3 | 3 (T_VCC), optional flying lead |
+
+- Other probes (J-Link, ARM 10-pin, ...): connect the signals by name (SWDIO, SWCLK, NRST, GND; VTref optional, from
+  TP102), using your probe's own pinout. UART lines need the probe's virtual COM port or a separate 3.3 V USB-UART.
+- Only SWDIO, SWCLK, NRST and GND are needed to flash. The UART lines are optional. They are used for the ROM
+  UART bootloader and for the debug log of a `FW_DEBUG_UART` build.
+- VTref is optional for the ST-LINK V3 (it has fixed 3.3 V I/O and only shows `Voltage 0.00V`). Probes that set their
+  I/O level from VTref need the flying lead to TP102. Never feed power *into* TP102 from the probe: the board is
+  powered from its USB-C port.
+- Keep the adapter and the probe-side wiring short. The TC2050 ribbon has no ground wire next to SWCLK / SWDIO (see
+  [known issues](known-issues.md), SWD clock).
+- The author's adapter also has an optional reset push button (NRST -> 1 kOhm -> button -> GND).
 
 ## Test pads
 

@@ -25,8 +25,10 @@ read back wrong. The first connect attempt often fails and the second succeeds.
 
 ### Custom Tag-Connect pinout, no VTref
 
-The TC2050 pads use a custom pin assignment, not the standard ARM 10-pin SWD layout (see the
-[hardware overview](README.md#programming-and-debug-tag-connect-tc2050-pads-j102)). Check your adapter wiring.
+The TC2050 footprint is standard, so a generic TC2050-IDC-NL cable fits, but the pin assignment is custom, not the
+standard ARM 10-pin SWD layout. **Tag-Connect cables made for a specific probe (for example TC2050-IDC-NL-050-STDC14
+for ST-LINK V3) do not work.** Wire the generic cable to your probe as in the
+[hardware overview](README.md#adapter-wiring).
 
 ## Isolation
 

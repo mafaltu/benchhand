@@ -105,7 +105,8 @@ before probing.
 1. Before power: check CONTROL_5V, CONTROL_3V3, PASS_IN_5V and PASS_OUT_5V to GND for shorts.
 2. Apply a current-limited 5 V / 100 mA supply to J101 first; check CONTROL_3V3 at TP102 (3.3 V).
 3. Program over the TC2050 pads (J102: 2 SWDIO, 9 SWCLK, 3 NRST, 5 / 6 GND, **no VTref**; the programmer needs its own
-   reference or 3.3 V from TP102). Use **100 kHz SWD clock** on r1. See the firmware README for building and flashing.
+   reference or 3.3 V from TP102). A generic TC2050-IDC-NL cable fits, but the pinout is custom: probe-specific
+   cables (e.g. the ST-LINK STDC14 one) do not work, see [adapter wiring](../docs/README.md#adapter-wiring). Use **100 kHz SWD clock** on r1. See the firmware README for building and flashing.
 4. Then test: USB enumeration on the USB-C port, each relay by command and by button, the isolated inputs, and the
    USB passthrough with a USB 2.0 High Speed device (it should enumerate at 480 Mbit/s).
 
